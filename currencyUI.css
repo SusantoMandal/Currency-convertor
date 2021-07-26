@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+    margin : 30px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 800px;
+}
+
+.form-select{
+    max-width: 100%;
+}
+
+.textField{
+    margin-top: 30px;
+    max-width: 100%;
+}
+
+.fromCurInfo{
+    font-size:1.25rem; 
+    margin-bottom: 0;
+}
+
+.toCurInfo{
+    font-size:2rem;
+    font-weight: 500;
+}
+
+.error{
+    padding-top: 20px;
+    color : red;
+    text-align: center;
+}
+
+#loader{
+    display:flex;
+}
+.loader-wrapper{
+    background-color: rgb(0,0,0,0.2);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:650px){
+    .container{
+         flex-flow: column;
+    }
+}
